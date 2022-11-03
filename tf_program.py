@@ -147,7 +147,7 @@ def exit():
         root.destroy()
 
 # A protocol that is used to handle the interaction between the application and the window manager.
-# root.protocol("WM_DELETE_WINDOW", exit)
+root.protocol("WM_DELETE_WINDOW", exit)
 
 
 page1 = TF_Page(root)
